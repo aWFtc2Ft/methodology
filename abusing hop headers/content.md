@@ -2,11 +2,9 @@
 
 _Adding known Hop-by-Hop headers to the `Connection:` header value can trick misconfigured reverse proxies or load balancers into removing important headers, potentially causing access control bypass or unexpected behavior._
 
-
 ## Table of Contents
 
 1. [Understand the Basics of HTTP Headers](#-understand-the-basics-of-http-headers)
-
 
 ## Understand the Basics of HTTP Headers
 
@@ -24,3 +22,6 @@ There are two types of headers:
   - `Trailer`
   - `Transfer-Encoding`
   - `Upgrade`
+
+👉 _For more about headers, make sure to read this [MDN article on HTTP headers](https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers)._
+
